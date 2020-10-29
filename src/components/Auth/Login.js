@@ -88,7 +88,6 @@ class Register extends React.Component {
                 className={this.handleInputErrors(errors, "password")}
                 onChange={this.handleChange}
               />
-
               <Button
                 disabled={loading}
                 className={loading ? "loading" : ""}
